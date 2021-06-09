@@ -1,0 +1,87 @@
+.imagem-carrosel-um {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 400px;
+}
+
+.imagem-carrosel-dois {
+  object-fit: cover;
+  height: 400px;
+}
+
+.fonte-titulo {
+  font-family: "Pacifico", cursive;
+}
+
+.cor-especial {
+  color: #ec99b9 !important;
+}
+
+.botao-cor-especial {
+  background-color: darkred;
+  color: white;
+}
+
+.botao-cor-especial:hover {
+  color: white;
+}
+
+.borda-cor-especial {
+  border-color: #ec99b9;
+}
+
+#produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo-redes-Sociais {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.redes-Sociais-link {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram img,
+.facebook img {
+  width: 40px;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.scrollbutton {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  position: fixed;
+  right: 15px;
+  bottom: 60px;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s;
+}
+
+.scrollbutton:hover {
+  width: 45px;
+  height: 45px;
+}
+
+.bg-footer {
+  background-color: #ec99b9;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .scrollbutton {
+    display: none;
+  }
+}

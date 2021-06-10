@@ -1,5 +1,5 @@
 <h1 align="center">
-    <p>Sabor de Infância Gourmet Versão 2</p>
+    <p>Sabor de Infância Gourmet</p>
 </h1>
 <p>Acesse: https://gsoaresdz.github.io/Sabor-de-Infancia-Gourmet-v2/index.html/</p>
 

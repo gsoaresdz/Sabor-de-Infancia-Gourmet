@@ -41,18 +41,15 @@
           >
           <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >início</a
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Início</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobre.html">sobre</a>
+                <a class="nav-link active" href="sobre.html">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">quem somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">contato</a>
+                <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
               </li>
             </ul>
           </div>
@@ -111,48 +108,48 @@
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/barra-coracao.png" class="card-img-top" alt="Barra de chocolate">
               <div class="card-body">
-                <h5 class="card-title">Titulo 1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Descrição...</p>
               </div>
             </div>
 
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/geladinhos.png" class="card-img-top" alt="Geladinhos Gourmet">
               <div class="card-body">
-                <h5 class="card-title">Título 2</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 class="card-title">Título</h5>
+                <p class="card-text">Descrição...</p>
               </div>
             </div>
 
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/churros.png" class="card-img-top" alt="Churros">
               <div class="card-body">
-                <h5 class="card-title">Título 3</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 class="card-title">Título</h5>
+                <p class="card-text">Descrição...</p>
               </div>
             </div>
 
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/caixa-bombom.png" class="card-img-top" alt="Caixa de Bombom">
               <div class="card-body">
-                <h5 class="card-title">Título 4</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 class="card-title">Título</h5>
+                <p class="card-text">Descrição...</p>
               </div>
             </div>
 
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/kit.png" class="card-img-top" alt="Kit diversos">
               <div class="card-body">
-                <h5 class="card-title">Título 5</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+                <h5 class="card-title">Título</h5>
+                <p class="card-text">Descrição....</p>
               </div>
             </div>
 
             <div class="card borda-cor-especial" style="width: 18rem;">
               <img src="./src/img/pipoca.png" class="card-img-top" alt="Pipoca Doce">
               <div class="card-body">
-                <h5 class="card-title">Título 6</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 class="card-title">Título</h5>
+                <p class="card-text">Descrição...</p>
               </div>
             </div>
          </section>
@@ -187,26 +184,27 @@
       <div class="modal-dialog">
         <dialog class="modal-content">
           <header class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+            <h5 class="modal-title fonte-titulo cor-especial" id="exampleModalLabel">Entre em contato</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </header>
           <main class="modal-body">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome completo">
+            <h6 class="text-center"><strong>Telefone</strong></h6>
+            <p class="text-center">+55 11 99135-9296</p>
+            <h6 class="text-center"><strong>Endereço</strong></h6>
+            <p class="text-center">Rua Sebastião Senret - Guarapiranga - SP</p>
+            <div class="whatsapp">
+              <h6 class="text-center"><strong>Whatsapp</strong></h6>
+              <a href="https://api.whatsapp.com/send?phone=5511991359296&text="
+              target="_blank">
+                <img src="./src/img/whatsapp.png" alt="Whatsapp"
+                title="Faça sua encomenda!"
+                />
+              </a>
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Deixei seu cometário</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insira aqui seu comentário"></textarea>
-            </div>
+
           </main>
           <footer class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn botao-cor-especial">Enviar</button>
+            <button type="button" class="btn botao-cor-especial" data-bs-dismiss="modal">Fechar</button>
           </footer>
         </dialog>
       </div>

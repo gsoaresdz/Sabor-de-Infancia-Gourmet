@@ -18,12 +18,16 @@
 }
 
 .botao-cor-especial {
-  background-color: darkred;
+  background-color: #ec99b9;
   color: white;
 }
 
 .botao-cor-especial:hover {
   color: white;
+}
+
+strong {
+  color: #ec99b9;
 }
 
 .borda-cor-especial {
@@ -80,8 +84,35 @@
   background-color: #ec99b9;
 }
 
+.modal-body {
+  margin-top: 8px;
+}
+
+.whatsapp {
+  text-align: center;
+}
+
+.whatsapp img {
+  width: 35px;
+}
+
+.whatsapp img:hover {
+  width: 38px;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .scrollbutton {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #titulo {
+    margin: 3px;
+  }
+
+  .card {
+    margin-left: 17px;
   }
 }

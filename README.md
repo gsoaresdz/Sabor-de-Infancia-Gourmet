@@ -10,7 +10,7 @@
     <img src="https://ik.imagekit.io/rs4q00nqg/sabor-de-infancia-gourmet2_V8phoOluT.png">
 </h1>
 <h1 align="center">
-    <img src="https://ik.imagekit.io/rs4q00nqg/sabor-de-infancia-gourmet2_V8phoOluT.png">
+    <img src="https://ik.imagekit.io/rs4q00nqg/sabor-de-infancia-gourmet3_3nWO7r7aX.png">
 </h1>
 
 ---

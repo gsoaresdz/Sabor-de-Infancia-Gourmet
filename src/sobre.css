@@ -1,0 +1,44 @@
+main {
+  margin-bottom: 60px;
+}
+
+#imagem-principal {
+  display: flex;
+  justify-content: center;
+}
+
+#imagem-principal figure img {
+  width: 300px;
+  margin-top: 60px;
+}
+
+.fonte-titulo {
+  font-family: "Pacifico", cursive;
+}
+
+.cor-especial {
+  color: #ec99b9 !important;
+}
+
+.botao-cor-especial {
+  background-color: darkred;
+  color: white;
+}
+
+.botao-cor-especial:hover {
+  color: white;
+}
+
+strong {
+  color: #ec99b9;
+}
+
+.bg-footer {
+  background-color: #ec99b9;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  #imagem-principal figure img {
+    width: 200px;
+  }
+}

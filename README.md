@@ -1,7 +1,7 @@
 <h1 align="center">
     <p>Sabor de Infância Gourmet</p>
 </h1>
-<p>Acesse: https://gsoaresdz.github.io/Sabor-de-Infancia-Gourmet-v2/index.html/</p>
+<p>Acesse: https://gsoaresdz.github.io/Sabor-de-Infancia-Gourmet/</p>
 
 <h1 align="center">
     <img src="https://ik.imagekit.io/rs4q00nqg/sabor-de-infancia-gourmet1_D_sdQXf0n.png">
